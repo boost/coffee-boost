@@ -18,4 +18,16 @@ body.page form {
     margin-bottom: 0;
     zoom: 1.7;
   }
+
+  .link {
+    color: $denim;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    display: inline-block;
+
+    &:hover {
+      color: $curious-blue;
+    }
+  }
 }
