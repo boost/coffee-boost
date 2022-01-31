@@ -27,7 +27,7 @@
 
       <div class="actions">
         <%= f.submit 'Log in', type: :submit, class: 'button expanded' %>
-        <%= link_to "Sign Up", "/users/sign_up", class: 'link' %>
+        <%= render "devise/shared/links" %>
       </div>
     <% end %>
   </div>
